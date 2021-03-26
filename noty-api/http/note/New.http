@@ -1,6 +1,8 @@
-POST http://localhost:8080/note/new
-Content-Type: application/json
-Authorization: Bearer YOUR_AUTH_TOKEN
+POST
+http://localhost:8080/note/new
+
+@Content-Type: application/json
+@Authorization: Bearer YOUR_AUTH_TOKEN
 
 {
   "title": "Hey there! This is title",
